@@ -1,0 +1,97 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li, a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1B1212;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 2%;
+    background-color: #5A5A5A;
+}
+
+.title {
+    color: #1B1212;
+    margin-right: auto;
+}
+
+span {
+    color: #FAF9F6;
+}
+
+.navbar {
+    list-style: none;
+} 
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 1s ease 0s;
+}
+
+.navbar li a:hover {
+    color: #FAF9F6;
+}
+
+.active {
+    color: #FAF9F6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.con1, .con2 {
+    height: 728px;
+    width: 50%;
+    padding: 25px;
+}
+
+.con1 {
+    background-color: #FAF9F6;
+}
+
+.user {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.con2 {
+    text-align: center;
+    background-image: url('IT\ Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.text1, .text2 {
+    margin-top: 10px;
+}
+
+hr {
+    border: 2px solid;
+ }
+
+ .pro1, .pro2, .pro3, .pro4, .pro5, .pro6 {
+    height: 233px;
+    width: 233px;
+ }

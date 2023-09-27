@@ -1,0 +1,96 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li, a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1B1212;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 2%;
+    background-color: #5A5A5A;
+}
+
+.title {
+    color: #1B1212;
+    margin-right: auto;
+}
+
+span {
+    color: #FAF9F6;
+}
+
+.navbar {
+    list-style: none;
+} 
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 1s ease 0s;
+}
+
+.navbar li a:hover {
+    color: #FAF9F6;
+}
+
+.active {
+    color: #FAF9F6;
+}
+
+.imgcon {
+    display: flex;
+    justify-content: center;
+    height: 405px;
+    width: 100%;
+    background-image: url('IT\ Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.user {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.con1, .con2 {
+    height: 323px;
+    width: 50%;
+    text-align: center;
+    padding: 25px;
+}
+
+.con1 {
+    background-color: #5A5A5A;
+}
+
+.con2 {
+    background-color: #FAF9F6;
+}
+
+.text {
+    margin-top: 90px;
+}
